@@ -27,6 +27,10 @@ public class Question {
 		return this.points;
 	}
 	
+	public String getPrompt() {
+		return this.prompt;
+	}
+	
 	public String getAnswer() {
 		return this.answer;
 	}
